@@ -16,6 +16,4 @@ export interface BlogProps {
     date? : string;
     title? : string;
     text?: string;
-            
-
 }

@@ -9,7 +9,7 @@ const Blogs = () => {
         {
             BLOGS.map((blog) =>
             <Blog 
-            key={blog.blogId}
+            blogId={blog.blogId}
             blogUrl= {blog.blogImageUrl}
             place = {blog.blogPlace}
             date = {blog.blogDate}
