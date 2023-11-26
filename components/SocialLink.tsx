@@ -11,8 +11,8 @@ const SocialLink = ({url,icon} : SocialLinkProps) => {
         <Link href={url}>
            {icon && <Image 
             src={icon}
-            width={22}
-            height={22}
+            width={28}
+            height={28}
             alt="icon"
             className="bg-secondary rounded-full outline-none p-[1px] transition-all duration-500 -hover:trans"
             />}
