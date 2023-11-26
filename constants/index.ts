@@ -81,3 +81,62 @@ export const BLOGS = [
     },
 
 ]
+
+// =========SOCIAL LINKS=======
+export const SOCIAL_LINKS = [
+    {
+
+        url : '/',
+        icon : '/icons/facebook.svg',
+    },
+    {
+
+        url : '/',
+        icon : '/icons/instagram.svg',
+    },
+    {
+
+        url : '/',
+        icon : '/icons/whatsapp.svg',
+    },
+]
+
+// ========== FOOTER LINKS =================================
+
+export const FOOTER_LINKS = [
+    {
+      title: "Stories",
+      links: [
+        { title: "Stories By Place", url: "/" },
+        { title: "Stories By Food", url: "/" },
+        { title: "Stories By Feature", url: "/" },
+        { title: "Bussiness Relation", url: "/" },
+      ],
+    },
+    {
+      title: "About Us",
+      links: [
+        { title: "Our Story", url: "/" },
+        { title: "Blog", url: "/" },
+        { title: "Contact Us", url: "/" },
+        { title: "Inquire About A Package", url: "/" },
+      ],
+    },
+    {
+      title: "Work With Us",
+      links: [
+        { title: "Pitch stories", url: "/" },
+        { title: "Create stories", url: "/" },
+        { title: "Partner us", url: "/" },
+        
+      ],
+    },
+    {
+        title: "Take Action",
+        links: [
+          { title: "Write for our blog", url: "/" },
+          
+          
+        ],
+      },
+  ];

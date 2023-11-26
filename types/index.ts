@@ -17,3 +17,8 @@ export interface BlogProps {
     title? : string;
     text?: string;
 }
+
+export interface SocialLinkProps {
+    url: string;
+    icon? : string;
+}
