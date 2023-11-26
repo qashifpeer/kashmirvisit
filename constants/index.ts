@@ -37,7 +37,7 @@ export const BLOGS = [
         blogPlace : 'doodhpathri',
         blogDate : 'October,2,2023',
         blogTitle : 'Doodhpathri, The new milestone',
-        blogText : ' Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis eius provident cum corrupti quibusdam mollitia, unde quidem rem repellat culpa minima et placeat, vitae nihil. Quas pariatur quisquam veritatis iste voluptatum aspernatur assumenda suscipit harum sapiente totam! Sed ducimus quas quo temporibus adipisci reiciendis ex iste, accusantium quaerat vero dolores?',
+        blogText : ' Doodhpathri, the "Valley of Milk," unveils an untouched Kashmiri gem. Serene meadows, pristine rivers, and panoramic vistas create a tapestry of tranquility. Away from bustling crowds, this hidden paradise invites nature enthusiasts to immerse in its untouched beauty, promising an unforgettable retreat. ',
     },
     {
         blogId : 2,
@@ -45,7 +45,7 @@ export const BLOGS = [
         blogPlace : '/gulmarg',
         blogDate : 'July,25,2023',
         blogTitle : 'Phenominal Increase in tourist footfall this year',
-        blogText : ' Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis eius provident adipisicing elit. Veritatis eius provident adipisicing elit. Veritatis eius provident adipisicing elit. Veritatis eius provident adipisicing elit. Veritatis eius provident cum corrupti quibusdam mollitia, unde quidem rem repellat culpa minima et placeat, vitae nihil. Quas pariatur quisquam veritatis iste voluptatum aspernatur assumenda suscipit harum sapiente totam! Sed ducimus quas quo temporibus adipisci reiciendis ex iste, accusantium quaerat vero dolores?',
+        blogText : 'Gulmarg, Kashmir, a winter wonderland and summer retreat, enchants with its snow-capped peaks, meadows, and the world\'s second-highest operating cable car. Adventure beckons with skiing, while summer unveils a floral tapestry. A paradise for all seasons, Gulmarg captivates with its timeless allure.',
     },
     {
         blogId : 3,
@@ -53,7 +53,7 @@ export const BLOGS = [
         blogPlace : 'Pahalgam',
         blogDate : 'June,8,2023',
         blogTitle : 'Explore hidden treasures of Pahalgam',
-        blogText : ' Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis eius provident cum corrupti quibusdam mollitia, unde quidem rem repellat culpa minima et placeat, vitae nihil. Quas pariatur quisquam veritatis iste voluptatum aspernatur assumenda suscipit harum sapiente totam! Sed ducimus quas quo temporibus adipisci reiciendis ex iste, accusantium quaerat vero dolores?',
+        blogText : ' Nestled in the heart of Kashmir, Pahalgam is a haven of natural beauty. Surrounded by lush pine forests and snow-capped mountains, it\'s a destination that captivates with its tranquil rivers, meandering trails, and the timeless charm of Betaab Valley.',
     },
     {
         blogId : 4,
@@ -61,7 +61,7 @@ export const BLOGS = [
         blogPlace : 'sonamarg',
         blogDate : 'March,21,2023',
         blogTitle : 'Sonamarg, new hub of tourism for Kashmir',
-        blogText : ' Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis eius provident cum corrupti quibusdam mollitia, unde quidem rem repellat culpa minima et placeat, vitae nihil. Quas pariatur quisquam veritatis iste voluptatum aspernatur assumenda suscipit harum sapiente totam! Sed ducimus quas quo temporibus adipisci reiciendis ex iste, accusantium quaerat vero dolores?',
+        blogText : ' Sonamarg, the "Meadow of Gold" in Kashmir, unfolds a surreal panorama of snow-kissed peaks and alpine meadows. As a gateway to the Himalayas, it beckons with its pristine beauty, pristine rivers, and the promise of an enchanting escape into nature\'s embrace.',
     },
     {
         blogId : 5,
@@ -69,15 +69,15 @@ export const BLOGS = [
         blogPlace : 'srinagar',
         blogDate : 'March,8,2023',
         blogTitle : 'Is, down town of Srinagar in your bucket List?',
-        blogText : ' Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis eius provident cum corrupti quibusdam mollitia, unde quidem rem repellat culpa minima et placeat, vitae nihil. Quas pariatur quisquam veritatis iste voluptatum aspernatur assumenda suscipit harum sapiente totam! Sed ducimus quas quo temporibus adipisci reiciendis ex iste, accusantium quaerat vero dolores?',
+        blogText : ' Srinagar, the jewel of Kashmir, enchants with its iconic Dal Lake, houseboats, and Mughal gardens. Woven into the fabric of the Himalayas, the city\'s timeless charm, vibrant markets, and hospitable locals create an unforgettable experience.',
     },
     {
         blogId : 6,
-        blogImageUrl : '/places/gulmarg.jpg',
+        blogImageUrl : '/places/gandola.jpg',
         blogPlace : 'gulmarg',
         blogDate : 'March,8,2023',
         blogTitle : 'Gulmarg gandola extends its reach to kangdoori',
-        blogText : ' Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis eius provident cum corrupti quibusdam mollitia, unde quidem rem repellat culpa minima et placeat, vitae nihil. Quas pariatur quisquam veritatis iste voluptatum aspernatur assumenda suscipit harum sapiente totam! Sed ducimus quas quo temporibus adipisci reiciendis ex iste, accusantium quaerat vero dolores?',
+        blogText : ' Gulmarg Gondola, Asia\'s highest cable car, elevates the thrill of a Kashmiri adventure. Ascend to breathtaking heights, marveling at snow-draped peaks and lush landscapes. Whether you seek skiing in winter or panoramic vistas in summer, the Gondola promises an unforgettable journey above the clouds.',
     },
 
 ]

@@ -22,9 +22,7 @@ const Footer = () => {
               className="object-contain rounded-full"
             />
             <p className="text-secondary regular-14">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
-              repellendus illo a corporis molestias facere quibusdam quod
-              incidunt quo. Nobis.
+            "Kashmir-Visit: Your Gateway to Enchanting Journeys. Explore the beauty of Kashmir with our curated packages, creating timeless travel memories.".
             </p>
             <div className="flex gap-2 py-4 ">
               {SOCIAL_LINKS.map((link) => (
