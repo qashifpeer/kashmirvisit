@@ -4,6 +4,7 @@ import Navbar from "./Navbar";
 import Hero from "./Hero"
 import Blogs from "./Blogs"
 import Blog from "./Blog"
+import SocialLink from "./SocialLink";
 
 
 export {Footer, 
@@ -12,4 +13,5 @@ export {Footer,
     Hero,
     Blogs,
     Blog,
+    SocialLink,
 } 
