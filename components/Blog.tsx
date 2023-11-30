@@ -6,8 +6,9 @@ import { CustomButton } from ".";
 
 const Blog = ({ blogUrl, place, date, title, text }: BlogProps) => {
   return (
-    <div className="w-full flex flex-col justify-between  md:w-[30%] bg-white p-4 h-[30rem] rounded shadow-md mx-auto">
+    <div className="w-full flex flex-col justify-between  md:w-[30%] bg-white p-4 h-[30rem] rounded shadow-md mx-auto transition-all duration-500 dark:bg-slate-800">
       <Image
+        key={blogUrl}
         src={blogUrl}
         width={333}
         height={444}
