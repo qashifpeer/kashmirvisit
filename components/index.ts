@@ -5,6 +5,7 @@ import Hero from "./Hero"
 import Blogs from "./Blogs"
 import Blog from "./Blog"
 import SocialLink from "./SocialLink";
+import ThemeToggle from "./ThemeToggle";
 
 
 export {Footer, 
@@ -14,4 +15,5 @@ export {Footer,
     Blogs,
     Blog,
     SocialLink,
+    ThemeToggle,
 } 

@@ -10,6 +10,7 @@ const SocialLink = ({url,icon} : SocialLinkProps) => {
     <div className="">
         <Link href={url}>
            {icon && <Image 
+           key={url}
             src={icon}
             width={28}
             height={28}

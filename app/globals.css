@@ -11,6 +11,10 @@
 }
 
 @layer utilities {
+  .dark{
+    @apply bg-black text-white
+  }
+
   .btn_white_rounded {
     @apply bg-white px-8 py-4 text-gray-90
   }
