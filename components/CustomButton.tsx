@@ -8,7 +8,7 @@ const CustomButton = ({ btnType, title, icon, containerStyles } : CustomButtonPr
       type={btnType}
     >
       {icon && <Image src={icon} alt={title} width={20} height={20} className="dark:bg-white dark:rounded-full dark:p-[1px] object-contain" />}
-      <label className="whitespace-nowrap cursor-pointer">
+      <label className="whitespace-nowrap cursor-pointer bold-16">
         {title}
       </label>
     </button>

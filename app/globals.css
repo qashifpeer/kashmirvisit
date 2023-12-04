@@ -11,24 +11,18 @@
 }
 
 @layer utilities {
-  .dark{
-    @apply bg-black text-white
-  }
 
   .btn_white_rounded {
     @apply bg-white px-8 py-4 text-gray-90
   }
-  .btn_light_rounded {
-    @apply border-slate-10 bg-slate-10 px-8 py-4 text-gray-90
-  }
-
+ 
   .btn_dark_rounded {
-    @apply border-green-50 bg-green-90 px-8 py-4 text-white transition-all hover:bg-black
+    @apply border-light-20 bg-accent px-8 py-4 text-white transition-all hover:bg-black
   }
 
-  .btn_green {
+  /* .btn_green {
     @apply border-green-50 px-8 py-5 text-white
-  }
+  } */
 
   .max-container{
     @apply mx-auto max-w-[1440px]

@@ -12,30 +12,39 @@ module.exports = {
       fontFamily: {
         inter: ["Montserrat", "sans-serif"],
       },
-      colors :{
-        "primary" : "#107274",
-        "secondary" : "#DFDEC4",
-        "accent" : "#E9BBDE",
-        "subtle" :"#ECE5E0",
-        slate : {
-          10 : '#f1f3f4'
+      colors: {
+        "primary": "#0AEAAC",
+        "subtle": "#4DD3DD",
+        "secondary": "#ED5808",
+        "accent": "#08F5B1",
+        "dark": "#09090b",
+        slate: {
+          10: '#f1f3f4',
+          900: "#0f172a",
+
         },
-        green : {
-          50: '#30AF58',
-          90 : '#292C27'
+        light : {
+          10 : '#f8fafc',
+          20 : '#f1f5f9',
+          30: '#cbd5e1',
+          40: '#94a3b8',
+          50: '#64748b',
+          90 : '#0f172a',
+          95 : '#020617',
+
         },
-        gray : {
-          10 : '#EEEEEE',
-          20 : '#A2A2A2',
-          30 : '#7B7B7B',
-          50 : '#585858',
-          90 : '#141414',
+        gray: {
+          10: '#EEEEEE',
+          20: '#A2A2A2',
+          30: '#7B7B7B',
+          50: '#585858',
+          90: '#141414',
         }
       },
-      screens : {
-        xs : '400px',
-        '3xl' : '1680px',
-        '4xl' : '2200px',
+      screens: {
+        xs: '400px',
+        '3xl': '1680px',
+        '4xl': '2200px',
       },
       backgroundImage: {
         'pattern': "url('/pattern.png')",
