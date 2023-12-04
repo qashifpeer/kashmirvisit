@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/react";
 
 import "./globals.css";
 import { Footer, Navbar, ThemeToggle } from "@/components";
@@ -6,7 +7,8 @@ import Providers from "@/contexts/Providers";
 
 export const metadata: Metadata = {
   title: "Explore Kashmir with Kashmir Visit",
-  description: "Discover the breathtaking landscapes and hidden treasures of Kashmir. Witness the tourist footfall this year",
+  description:
+    "Discover the breathtaking landscapes and hidden treasures of Kashmir. Witness the tourist footfall this year",
 };
 
 export default function RootLayout({
@@ -16,15 +18,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      
-        <body className="relative">
+      <body className="relative">
         <Providers>
           <Navbar />
           {children}
+          <Analytics />
           <Footer />
-          </Providers>
-        </body>
-      
+        </Providers>
+      </body>
     </html>
   );
 }
