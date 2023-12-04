@@ -6,7 +6,7 @@ import Providers from "@/contexts/Providers";
 
 export const metadata: Metadata = {
   title: "Explore Kashmir with Kashmir Visit",
-  description: "Discover the breathtaking landscapes and hidden treasuresof Kashmir. Witness the tourist footfall this year",
+  description: "Discover the breathtaking landscapes and hidden treasures of Kashmir. Witness the tourist footfall this year",
 };
 
 export default function RootLayout({
