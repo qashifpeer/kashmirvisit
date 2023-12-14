@@ -13,9 +13,10 @@ module.exports = {
         inter: ["Montserrat", "sans-serif"],
       },
       colors: {
-        "primary": "#0AEAAC",
+        "primary": "#ED5808",
+        "secondary": "#0AEAAC",
         "subtle": "#4DD3DD",
-        "secondary": "#ED5808",
+       
         "accent": "#08F5B1",
         "dark": "#09090b",
         slate: {

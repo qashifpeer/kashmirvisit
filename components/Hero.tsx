@@ -7,18 +7,20 @@ import Image from "next/image";
 const Hero = () => {
   return (
     <section className="relative bg-[url('/hero.jpg')] bg-cover bg-no-repeat h-screen w-full z-10 pb-12">
-      <div className="max-container padding-container relative top-16 sm:top-[20%] z-10">
-        <h1 className="bold-44 sm:bold-64 text-primary capitalize max-w-[36rem] dark:text-dark transition-all duration-500">
-          {" "}
-          Explore the Kashmir with us
+      <div className="max-container padding-container relative top-6 sm:top-[20%] z-10">
+        <h1 className="bold-44 sm:bold-52 capitalize max-w-[45rem] dark:text-dark transition-all duration-500">
+          Explore the Kashmir with{" "}
+          <span className="text-primary">KashmirVisit</span>
         </h1>
-        <p className="regular-16 mt-4 text-white lg:w-1/2">
-          Come and join us to explore Kashmir which is nestled in the lap of the
-          Himalayas, Kashmir captivates with its breathtaking landscapes—verdant
-          valleys, serene lakes, and snow-capped peaks. A paradise on Earth, it
-          mesmerizes with its rich culture, saffron fields, and the timeless
-          beauty of Dal Lake.
-        </p>
+        <div className="bg-slate-900 opacity-70 py-1 px-2 rounded-lg lg:w-1/2">
+          <p className="regular-16 mt-4 text-white w-full">
+            Come and join us to explore Kashmir which is nestled in the lap of
+            the Himalayas, Kashmir captivates with its breathtaking
+            landscapes—verdant valleys, serene lakes, and snow-capped peaks. A
+            paradise on Earth, it mesmerizes with its rich culture, saffron
+            fields, and the timeless beauty of Dal Lake.
+          </p>
+        </div>
         <div className="mt-6">
           <CustomButton
             btnType="button"

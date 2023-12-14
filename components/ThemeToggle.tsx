@@ -13,7 +13,7 @@ const ThemeToggle = () => {
   }, []);
 
   if (!mounted) {
-    return "Loading...." //Alternatively,  return a loader or placeholder while the component is not mounted.
+    return null; //Alternatively,  return a loader or placeholder while the component is not mounted.
   }
   return (
     <button
