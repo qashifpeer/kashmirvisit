@@ -26,7 +26,7 @@ const Blog = ({ blogUrl, place, date, title, text }: BlogProps) => {
         <CustomButton
           btnType="button"
           title="Read More..."
-          containerStyles="bg-primary regular-14 px-4 py-2 rounded-lg mt-4 text-secondary"
+          containerStyles="bg-primary regular-14 px-4 py-2 rounded-lg mt-4 text-white dark:text-secondary dark:bg-slate-900"
         />
         {/* <p className='bg-primary text-white px-4 py-2 rounded-lg mt-2 '>read More ...</p> */}
       </Link>

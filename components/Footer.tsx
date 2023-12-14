@@ -21,7 +21,7 @@ const Footer = () => {
               alt="logo3"
               className="object-contain rounded-full"
             />
-            <p className="text-secondary regular-14">
+            <p className="text-white regular-14">
             "Kashmir-Visit: Your Gateway to Enchanting Journeys. Explore the beauty of Kashmir with our curated packages, creating timeless travel memories.".
             </p>
             <div className="flex gap-2 py-4 ">
@@ -36,10 +36,10 @@ const Footer = () => {
             {
               FOOTER_LINKS.map((link) => (
                 <div className="flex flex-col justify-start items-start">
-                  <span className="bold-16 my-2 border-b-2 border-secondary text-accent ">{link.title}</span>
+                  <span className="bold-16 my-2 border-b-2 border-secondary text-white ">{link.title}</span>
                   {
                     link.links.map((item)=>(
-                      <div className="flex flex-col justify-start items-start text-secondary py-1">
+                      <div className="flex flex-col justify-start items-start text-white py-1">
                         <Link href={item.url} className="regular-14 hover:-translate-y-[-2px] transition-all duration-500">{item.title}</Link>
                       </div>
                     ))
