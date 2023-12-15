@@ -6,7 +6,7 @@ import { Footer, Navbar, ThemeToggle } from "@/components";
 import Providers from "@/contexts/Providers";
 
 export const metadata: Metadata = {
-  title: "Explore Kashmir with Kashmir Visit",
+  title: "Explore Kashmir with Nuzha Kashmir",
   description:
     "Discover the breathtaking landscapes and hidden treasures of Kashmir. Witness the tourist footfall this year",
 };
