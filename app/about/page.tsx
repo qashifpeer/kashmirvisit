@@ -28,11 +28,11 @@ const AboutPage = () => {
             With an unwavering commitment to authenticity, our team, deeply rooted in the region, opens the doors to hidden gems, picturesque landscapes, and warm hospitality. 
             <br />
             <br />
-            At KashmirVisit.com, we redefine travel, infusing each journey with personalized charm, local insights, and a touch of magic. Join us as we invite you to explore the heart and soul of Kashmir, creating memories that linger for a lifetime.</p>
+            At NuzhaKashmir.com, we redefine travel, infusing each journey with personalized charm, local insights, and a touch of magic. Join us as we invite you to explore the heart and soul of Kashmir, creating memories that linger for a lifetime.</p>
           </div>
           <div className="flex-1">
             <h2 className="bold-22">What do we do?</h2>
-            <p className="regular-14">At KashmirVisit.com, we craft tailor-made journeys to showcase the essence of Kashmir. We go beyond conventional travel, offering curated experiences that delve into the region's rich cultural tapestry, breathtaking landscapes, and unique charm. 
+            <p className="regular-14">At NuzhaKashmir.com, we craft tailor-made journeys to showcase the essence of Kashmir. We go beyond conventional travel, offering curated experiences that delve into the region's rich cultural tapestry, breathtaking landscapes, and unique charm. 
               <br />
               <br />
               Our services include personalized travel packages, expert guidance, and access to exclusive deals, ensuring each adventure is exceptional. Whether you seek cultural immersion, nature exploration, or tranquil retreats, we specialize in transforming your travel dreams into reality, creating unforgettable moments that define the essence of Kashmir.</p>

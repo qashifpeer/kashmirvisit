@@ -22,7 +22,7 @@ const Footer = () => {
               className="object-contain rounded-full"
             />
             <p className="text-white regular-14">
-            "Kashmir-Visit: Your Gateway to Enchanting Journeys. Explore the beauty of Kashmir with our curated packages, creating timeless travel memories.".
+            "Nuzha-Kashmir: Your Gateway to Enchanting Journeys. Explore the beauty of Kashmir with our curated packages, creating timeless travel memories.".
             </p>
             <div className="flex gap-2 py-4 ">
               {SOCIAL_LINKS.map((link) => (
@@ -55,7 +55,7 @@ const Footer = () => {
 
         {/* section-copyright */}
       <div className="border-t-2 border-gray-20 ">
-       <p className="text-center text-gray-10 regular-14">&copy; 2023 kashmirvisit</p> 
+       <p className="text-center text-gray-10 regular-14">&copy; 2023 NuzhaKashmir</p> 
       </div>
        
       </div>
