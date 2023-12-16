@@ -14,7 +14,7 @@ const Navbar: React.FC = () => {
       <nav className="flex-between max-container px-12 py-1 z-30 shadow-xl transition-all duration-500 bg-white dark:bg-dark dark:text-secondary rounded-full ring-1 ring-slate-100 dark:ring-slate-900 fixed w-[95%] left-[50%] top-1 translate-x-[-50%]">
         <Link href="/" className="bold-28">
           <Image
-            src="/logo3.png"
+            src="/logo.png"
             width={50}
             height={30}
             alt="logo"
