@@ -15,7 +15,7 @@ const Footer = () => {
           {/* =========Logo Section ======= */}
           <div className="flex flex-col w-full md:w-1/3">
             <Image
-              src="/logo3.png"
+              src="/logo-footer.png"
               width={50}
               height={50}
               alt="logo3"
