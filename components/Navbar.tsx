@@ -38,7 +38,7 @@ const Navbar: React.FC = () => {
                 width={20}
                 className="object-contain dark:bg-white dark:rounded-full dark:m-1 dark:p-1"
               />
-              {link.label}
+             <p className="font-medium">{link.label}</p> 
               <span className="absolute inline-block h-[2px] w-0 bg-primary -bottom-2 transition-all duration-500 group-hover:w-full"></span>
             </Link>
           ))}
