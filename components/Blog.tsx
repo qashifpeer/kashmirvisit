@@ -6,7 +6,7 @@ import { CustomButton } from ".";
 
 const Blog = ({ blogUrl, place, date, title, text }: BlogProps) => {
   return (
-    <div className="w-full flex flex-col justify-between  md:w-[30%] bg-white p-4 h-[30rem] rounded shadow-md mx-auto transition-all duration-500 dark:bg-dark">
+    <div className="w-full  md:w-[45%] flex flex-col justify-between lg:w-[27%]  bg-white p-4 mx-4 h-[30rem] rounded shadow-md  transition-all duration-500 dark:bg-dark">
       <Image
         key={blogUrl}
         src={blogUrl}
@@ -28,7 +28,6 @@ const Blog = ({ blogUrl, place, date, title, text }: BlogProps) => {
           title="Read More..."
           containerStyles="bg-primary regular-14 px-4 py-2 rounded-lg mt-4 text-white dark:text-secondary dark:bg-slate-900"
         />
-        {/* <p className='bg-primary text-white px-4 py-2 rounded-lg mt-2 '>read More ...</p> */}
       </Link>
     </div>
   );

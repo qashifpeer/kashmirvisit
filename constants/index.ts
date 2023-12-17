@@ -3,8 +3,8 @@
 export const NAV_LINKS = [ 
     {href: '/', key:'home',label:'Home', iconURL : '/icons/home.svg'},
     {href: '/about', key:'about',label:'About', iconURL : '/icons/about.svg'},
-    {href: '/', key:'packages',label:'Packages', iconURL : '/icons/earth.svg'},
-    {href: '/', key:'contact',label:'Contact', iconURL : '/icons/contact.svg'},
+    {href: '/packages', key:'packages',label:'Packages', iconURL : '/icons/earth.svg'},
+    {href: '/contact', key:'contact',label:'Contact', iconURL : '/icons/contact.svg'},
 ]
 
 
@@ -13,18 +13,22 @@ export const CATEGORIES = [
     {
         title : 'Places',
         icon : '/icons/earth.svg',
+        href : '/places',
     },
     {
         title : 'Restaurants',
         icon : '/icons/food.svg',
+         href : '/restaurants',
     },
     {
         title : 'Hotels',
         icon : '/icons/hotel.svg',
+         href : '/hotels',
     },
     {
         title : 'Shopping',
         icon : '/icons/cart.svg',
+         href : '/shopping',
     },
 ]
 

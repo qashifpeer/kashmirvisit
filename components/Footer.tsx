@@ -60,7 +60,7 @@ const Footer = () => {
           <p className="text-center text-gray-10 regular-14">
             &copy; 2023 NuzhaKashmir
           </p>
-          <div className="flex gap-4 items-center">
+          <div className="md:flex gap-4 items-center">
             <p className="text-center text-gray-10 regular-14 flex gap-1 items-center">
             <FaPhoneVolume /> +91 70066 15905
             </p>
