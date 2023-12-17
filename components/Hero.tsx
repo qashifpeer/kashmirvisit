@@ -7,7 +7,7 @@ import Image from "next/image";
 const Hero = () => {
   return (
     <section className="relative bg-[url('/hero.jpg')] bg-cover bg-no-repeat h-screen w-full z-10 pb-12">
-      <div className="max-container padding-container relative top-6 sm:top-[20%] z-10">
+      <div className="max-container padding-container relative top-16 sm:top-[20%] z-10">
         <h1 className="bold-44 sm:bold-52 capitalize max-w-[45rem] dark:text-dark transition-all duration-500">
           Explore the Kashmir with{" "}
           <span className="text-primary">NuzhaKashmir</span>
@@ -30,14 +30,17 @@ const Hero = () => {
             textStyles=""
           />
         </div>
-        <h4 className="text-secondary my-4 bold-22">Explore the key points</h4>
+        <h2 className="text-primary my-4 bold-22">Explore the key points</h2>
         <ul className="flex flex-wrap gap-4">
           {CATEGORIES.map((category) => (
-            <CategoryItem
-              key={category.title}
-              title={category.title}
-              icon={category.icon}
-            />
+            
+              <CategoryItem
+                key = {category.title}
+                title = {category.title}
+                icon = {category.icon}
+                link = {category.href}
+              />
+            
           ))}
         </ul>
       </div>
@@ -48,12 +51,13 @@ const Hero = () => {
 type CategoryItem = {
   title: string;
   icon: string;
+  link :string;
 };
 
-const CategoryItem = ({ title, icon }: CategoryItem) => {
+const CategoryItem = ({ title, icon ,link}: CategoryItem) => {
   return (
     <Link
-      href="/"
+      href={link}
       className="bg-white dark:bg-dark flex-center gap-2 px-4 py-2 cursor-pointer hover:-translate-y-[-2px] transition-all duration-500 rounded-md"
     >
       <Image

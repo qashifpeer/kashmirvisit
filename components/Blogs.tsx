@@ -4,8 +4,8 @@ import { BLOGS } from '@/constants'
 
 const Blogs = () => {
   return (
-    <section className=' relative bg-secondary py-10 dark:bg-slate-900'>
-       <div className='flex flex-wrap gap-4'>
+    <section className=' relative bg-slate-900 py-10 dark:bg-slate-900'>
+       <div className='flex flex-wrap gap-4 justify-center'>
         {
             BLOGS.map((blog) =>
             <Blog 
